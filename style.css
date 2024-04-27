@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #235789;
+    --secondary-color: #e0e0e0;
+    --complimentory-color: #eb9966;
+    --text-color: wheat;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    font-size: medium;
+    padding: 1%;
+    margin: 0;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 800;
+    background-color: var(--primary-color);
+}
+
+#tagsContainer {
+    padding: 1%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll;
+}
+
+.tags {
+    padding: 10px;
+    background-color: var(--complimentory-color);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#quotesContainer {
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.quoteCard {
+    margin: 20px;
+    padding: 2%;
+    background-color: var(--secondary-color);
+    text-align: justify;
+    border: 1px solid;
+    border-radius: 5% 5%;
+}
+
+.quoteText {
+    font-weight: 800;
+    /* background-color: aliceblue; */
+}
+
+.extraText {
+    font-size: smaller;
+}
+
+#paginationContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#paginationContainer button {
+    font-weight: 900;
+    padding: 2%;
+    background-color: transparent;
+    border: 0.5px solid black;
+    border-radius: 10px 10px;
+}
