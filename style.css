@@ -11,12 +11,18 @@ body {
 
 header {
     font-size: medium;
-    padding: 1%;
+    padding: 0%;
     margin: 0;
     text-align: center;
     color: var(--text-color);
     font-weight: 800;
     background-color: var(--primary-color);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure header is on top of other content */
 }
 
 #tagsContainer {
@@ -25,6 +31,13 @@ header {
     display: flex;
     flex-direction: row;
     overflow-x:scroll;
+
+    position: fixed;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2; /* Set background color as needed
+    z-index: 1000; /* Ensure tags container is on top of other content */
 }
 
 .tags {
@@ -35,7 +48,7 @@ header {
 }
 
 #quotesContainer {
-    margin-top: 2%;
+    margin-top: 20%;
     text-align: justify;
 }
 
@@ -49,12 +62,18 @@ header {
 }
 
 .quoteText {
-    font-weight: 800;
+    font-weight: 550;
     /* background-color: aliceblue; */
 }
 
 .extraText {
-    font-size: smaller;
+    font-size: 13px;
+}
+
+.shareBtn {
+    background-color: transparent;
+    border: 0;
+    font-size: larger;
 }
 
 #paginationContainer {
@@ -70,3 +89,29 @@ header {
     border: 0.5px solid black;
     border-radius: 10px 10px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:last baseline;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #quotesContainer {
+        margin-top: 40%;
+    }
+    .tags {
+        margin: 1%;
+    }
+
+    .extraText {
+        padding-left: 2%;
+    }
+
+    #share {
+        justify-content: space-evenly;
+    }
+
+} 

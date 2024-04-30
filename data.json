@@ -75,7 +75,7 @@
       {
         "id": 13,
         "text": "_Luck_ is what happens when **preparation** meets **opportunity**.",
-        "author": "",
+        "author": "Four Leaf Clover",
         "tags": ["luck", "success"]
       },
       {
@@ -113,6 +113,24 @@
         "text": "Even if the cost is a **gruesome death**, we must uphold **justice** on _Earth!_",
         "author": "Ye Qing",
         "tags": ["life", "justice", "novel"]
+      },
+      {
+        "id": 20,
+        "text": "I am not afraid of Muslims,<br>I'm not afraid of Britishers,<br>I'm afraid of Hindus against Hinduism.",
+        "author": "Veer Savarkar",
+        "tags": ["savarkar", "india", "fear", "hinduism"]
+      },
+      {
+        "id": 21,
+        "text": "Joyful in difficulty, the people forget about their death.",
+        "author": "I Ching",
+        "tags": ["i ching", "success", "death"]
+      },
+      {
+        "id": 22,
+        "text": "There are two types of Pain,<br>Pain that _hurts_ you and Pain that _changes_ you.",
+        "author": "Naruto",
+        "tags": ["naruto", "pain", "learn", "life"]
       }
   ]
 }

@@ -7,11 +7,12 @@ This site shows quotes of best books or top people like geetaji and dinkar etc..
 - Simple UI
 - Light Dark Theme
 
+- **Social Share** a button of social media to share that perticular quote from their account.
+
 ### Feature for future
 - **Search Bar** to search quote, author, book, tags.
 - **Multi Theme** good for users. or we can make user themself set the theme.
 - **Remainder** daily top quote in their notification section.
-- **Social Share** a button of social media to share that perticular quote from their account.
 - **User Login** enable users to login and commant their thoughts or upvote the quote.
 - **Gamification** a section for test of users to test their knowledge on quote (like author, book etc) and give points and a _leaderboard_.
 - **Biodata** of some famous authors. In a seperate section.

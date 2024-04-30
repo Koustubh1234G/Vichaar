@@ -19,9 +19,19 @@ class Quote {
     display() {
         return `
             <div class="quoteCard">
-                <p class="quoteText">${this.renderMarkdown(this.text)}</p>
-                <p class="extraText">~${this.author}</p>
-                <p class="extraText">Tags: ${this.tags.join(', ')}</p>
+                <blockquote class="quoteText">${this.renderMarkdown(this.text)}</blockquote >
+                <div class="row">
+                    <div id="author">
+                        <p class="extraText">~${this.author}</p>
+                    </div>
+                    <div class="row" id="share">
+                        <button class="shareBtn" id="facebookShareBtn"><i class="fa fa-facebook"></i></button>
+                        <button class="shareBtn" id="twitterShareBtn"><i class="fa fa-twitter"></i></button>
+                        <button class="shareBtn" id="whatsappShareBtn"><i class="fa fa-whatsapp "></i></button>
+                        <button class="shareBtn" id="allShareBtn"><i class="fa fa-share-alt"></i></button>
+                        <!-- Add more share options as needed -->
+                    </div>
+                </div>
             </div>
         `;
     }
@@ -76,9 +86,7 @@ class QuoteManager {
         }
         // console.log('randomQuotes in getRandomQuotes:', randomQuotes);
         return randomQuotes;
-    }
-    
-    
+    }  
 
     // methods related to pagination
     getTotalPages() {
@@ -118,7 +126,9 @@ class UIManager {
     constructor() {
         this.tagsContainer = document.getElementById('tagsContainer');
         this.quotesContainer = document.getElementById('quotesContainer');
+        this.shareBtn = document.querySelectorAll('#shareBtn')
         this.paginationContainer = document.getElementById('paginationContainer');
+        // this.allShareBtn = document.getElementById('allShareBtn');
     }
 
     displayTags(tags) {
@@ -139,15 +149,95 @@ class UIManager {
         });
     }
 
+    // In your UIManager class or wherever appropriate
+    shareViaSites(site, text, author) {
+        const message = `${text}\n${author}`;
+        let url = '';
+        switch (site) {
+            case 'whatsapp': {
+                const whatsappAppUrl = `whatsapp://send?text=${encodeURIComponent(message)}`;
+                const whatsappWebUrl = `https://web.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+                url = navigator.userAgent.match(/Android/i) ? whatsappAppUrl : whatsappWebUrl;
+                break;
+            }
+            case 'twitter': {
+                url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}`;
+                break;
+            }
+            case 'facebook': {
+                url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(message)}`;
+                break;
+            }
+            case 'all': {
+                alert("This feature is not yet Implemented.");
+                break;
+            }
+            default: {
+                // Handle unsupported site or default case
+                break;
+            }
+        }
+        if (url) {
+            window.open(url, '_blank');
+        }
+    }
+    
+
+    attachShareEventListeners(quoteElement) {
+        const whatsappShareBtn = quoteElement.querySelector('#whatsappShareBtn');
+        const facebookShareBtn = quoteElement.querySelector('#facebookShareBtn');
+        const twitterShareBtn = quoteElement.querySelector('#twitterShareBtn');
+        const allShareBtn = quoteElement.querySelector('#allShareBtn');
+
+        // Attach event listener for WhatsApp share button
+        whatsappShareBtn.addEventListener('click', () => {
+            const quoteTextHTML = quoteElement.querySelector('blockquote').innerHTML;
+            const authorText = quoteElement.querySelector('.extraText').textContent;
+            const quoteText = this.stripHtmlTags(quoteTextHTML);
+            this.shareViaSites('whatsapp', quoteText, authorText);
+        });
+
+        // Attach event listener for Facebook share button
+        facebookShareBtn.addEventListener('click', () => {
+            const quoteTextHTML = quoteElement.querySelector('blockquote').innerHTML;
+            const authorText = quoteElement.querySelector('.extraText').textContent;
+            const quoteText = this.stripHtmlTags(quoteTextHTML);
+            this.shareViaSites('facebook', quoteText, authorText);
+        });
+
+        // Attach event listener for Twitter share button
+        twitterShareBtn.addEventListener('click', () => {
+            const quoteTextHTML = quoteElement.querySelector('blockquote').innerHTML;
+            const authorText = quoteElement.querySelector('.extraText').textContent;
+            const quoteText = this.stripHtmlTags(quoteTextHTML);
+            this.shareViaSites('twitter', quoteText, authorText);
+        });
+
+        // Attach event listener for all share button
+        allShareBtn.addEventListener('click', () => {
+            const quoteTextHTML = quoteElement.querySelector('blockquote').innerHTML;
+            const authorText = quoteElement.querySelector('.extraText').textContent;
+            const quoteText = this.stripHtmlTags(quoteTextHTML);
+            this.shareViaSites('all', quoteText, authorText);
+        });
+    }
+
+    stripHtmlTags(html) {
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+        return doc.body.textContent || '';
+    }
+
     displayQuotes(quotes) {
         this.quotesContainer.innerHTML = '';
         quotes.forEach(quote => {
             const quoteElement = document.createElement('div');
             quoteElement.innerHTML = quote.display();
+            this.attachShareEventListeners(quoteElement); // Attach share event listener
             this.quotesContainer.appendChild(quoteElement);
         });
-    }    
+    }
 
+    
     // pagination controls
     displayPagination() {
         const totalPages = app.quoteManager.getTotalPages();
