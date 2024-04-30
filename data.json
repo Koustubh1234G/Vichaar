@@ -31,10 +31,22 @@
         "tags": ["soul", "upanishad", "sanskrit"]
       },
       {
+        "id": 29,
+        "text": "It is impossible for a man to learn what he thinks he already knows.",
+        "author": "Epictetus",
+        "tags": ["epictetus", "learn", "life"]
+      },
+      {
         "id": 1,
         "text": "Everything that is made beautiful and fair and lovely is made for the eye of one who sees.",
         "author": "Rumi",
         "tags": ["rumi", "beauty"]
+      },
+      {
+        "id": 30,
+        "text": "Circumstances don't make the man, they only reveal him to himself.",
+        "author": "Epictetus",
+        "tags": ["epictetus", "life", "truth"]
       },
       {
         "id": 2,
@@ -59,6 +71,12 @@
         "text": "मातृ देवो भव।<br>पितृ देवो भव।<br>आचार्य देवो भव।<br>अतिथि देवो भव॥1.11.2",
         "author": "Taittiriya Upanishad",
         "tags": ["teacher", "upanishad", "sanskrit"]
+      },
+      {
+        "id": 26,
+        "text": "Real knowledge is to know the extent of one's ignorance.",
+        "author": "Confucious",
+        "tags": ["life", "confucious", "success"]
       },
       {
         "id": 11,
@@ -93,8 +111,8 @@
       {
         "id": 16,
         "text": "We cannot choose our external circumstances, but we can always choose how we respond to them.",
-        "author": "Epictatus",
-        "tags": ["epictatus", "success", "life", "greek"]
+        "author": "Epictetus",
+        "tags": ["epictetus", "success", "life", "greek"]
       },
       {
         "id": 17,
@@ -131,7 +149,44 @@
         "text": "There are two types of Pain,<br>Pain that _hurts_ you and Pain that _changes_ you.",
         "author": "Naruto",
         "tags": ["naruto", "pain", "learn", "life"]
+      },
+      {
+        "id": 23,
+        "text": "In a country well governed, poverty is something to be ashamed of. In a country badly governed, wealth is something to be ashamed of.",
+        "author": "Confucious",
+        "tags": ["politics", "confucious"]
+      },
+      {
+        "id": 24,
+        "text": "When anger rises, think of consequences.",
+        "author": "Confucious",
+        "tags": ["politics", "confucious", "life", "anger"]
+      },
+      {
+        "id": 25,
+        "text": "When it is obvious that the goals cannot be reached, don't adjust the goals; adjust the action steps.",
+        "author": "Confucious",
+        "tags": ["politics", "confucious", "life", "success"]
+      },
+      {
+        "id": 27,
+        "text": "Wealth consists not in having great possessions, but in having few wants.",
+        "author": "Epictetus",
+        "tags": ["wealth","epictetus", "success", "life"]
+      },
+      {
+        "id": 28,
+        "text": "The key is to keep company only with people who uplift you, whose presence calls forth your best.",
+        "author": "Epictetus",
+        "tags": ["epictetus", "success", "life"]
+      },
+      {
+        "id": 31,
+        "text": "No man is free who is not master of himself",
+        "author": "Epictetus",
+        "tags": ["epictetus", "truth", "teacher"]
       }
+
   ]
 }
   
