@@ -33,7 +33,7 @@ header {
     overflow-x:scroll;
 
     position: fixed;
-    top: 120px;
+    top: 80px;
     left: 0;
     width: 100%;
     background-color: #f2f2f2; /* Set background color as needed
@@ -48,7 +48,7 @@ header {
 }
 
 #quotesContainer {
-    margin-top: 16%;
+    margin-top: 15%;
     text-align: justify;
 }
 
@@ -104,7 +104,7 @@ header {
     }
 
     #quotesContainer {
-        margin-top: 170px;
+        margin-top: 140px;
     }
 
     .tags {
@@ -112,7 +112,7 @@ header {
     }
 
     #tagsContainer {
-        top: 12%;
+        top: 10%;
     }
 
     .extraText {
