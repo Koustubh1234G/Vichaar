@@ -33,7 +33,7 @@ header {
     overflow-x:scroll;
 
     position: fixed;
-    top: 64px;
+    top: 120px;
     left: 0;
     width: 100%;
     background-color: #f2f2f2; /* Set background color as needed
@@ -99,11 +99,20 @@ header {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #quotesContainer {
-        margin-top: 40%;
+    header {
+        font-size: small;
     }
+
+    #quotesContainer {
+        margin-top: 170px;
+    }
+
     .tags {
         margin: 1%;
+    }
+
+    #tagsContainer {
+        top: 13%;
     }
 
     .extraText {
