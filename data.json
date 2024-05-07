@@ -1,192 +1,263 @@
 {
   "quotes": [
-      {
-        "id": 4,
-        "text": "प्रज्ञानम् ब्रह्म",
-        "author": "Aitareya Upanishad",
-        "tags": ["brahma", "upanishad", "sanskrit"]
-      },
-      {
-        "id": 5,
-        "text": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च।<br>तस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि॥ **२-२७**",
-        "author": "Bhagwad Geeta",
-        "tags": ["life", "bhagwad geeta", "sanskrit"]
-      },
-      {
-        "id": 6,
-        "text": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।<br>मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥ २-४७",
-        "author": "Bhagwad Geeta",
-        "tags": ["work", "bhagwad geeta", "sanskrit"]
-      },
-      {
-        "id": 7,
-        "text": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः।<br>न चैनं क्लेदयन्त्यापो न शोषयति मारुतः॥ २-२३",
-        "author": "Bhagwad Geeta",
-        "tags": ["soul", "bhagwad geeta", "sanskrit"]
-      },
-      {
-        "id": 8,
-        "text": "असतो मा सद्गमय ।<br>तमसो मा ज्योतिर्गमय ।<br>मृत्योर्माऽमृतं गमय ॥1.3.28",
-        "author": "Brihadaranyaka Upanishad",
-        "tags": ["soul", "upanishad", "sanskrit"]
-      },
-      {
-        "id": 29,
-        "text": "It is impossible for a man to learn what he thinks he already knows.",
-        "author": "Epictetus",
-        "tags": ["epictetus", "learn", "life"]
-      },
-      {
-        "id": 1,
-        "text": "Everything that is made beautiful and fair and lovely is made for the eye of one who sees.",
-        "author": "Rumi",
-        "tags": ["rumi", "beauty"]
-      },
-      {
-        "id": 30,
-        "text": "Circumstances don't make the man, they only reveal him to himself.",
-        "author": "Epictetus",
-        "tags": ["epictetus", "life", "truth"]
-      },
-      {
-        "id": 2,
-        "text": "Everything has beauty, but not everyone sees it.",
-        "author": "Confucious",
-        "tags": ["confucious", "beauty"]
-      },
-      {
-        "id": 3,
-        "text": "Your depression is connected to your insolence and refusal to praise.",
-        "author": "Rumi",
-        "tags": ["rumi", "life"]
-      },
-      {
-        "id": 9,
-        "text": "सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः।<br>येनाक्रमन्त्यृषयो ह्याप्तकामा यत्र तत्‌ सत्यस्य परमं निधानम्‌ ॥3.1.6",
-        "author": "Mandukya Upanishad",
-        "tags": ["truth", "upanishad", "sanskrit"]
-      },
-      {
-        "id": 10,
-        "text": "मातृ देवो भव।<br>पितृ देवो भव।<br>आचार्य देवो भव।<br>अतिथि देवो भव॥1.11.2",
-        "author": "Taittiriya Upanishad",
-        "tags": ["teacher", "upanishad", "sanskrit"]
-      },
-      {
-        "id": 26,
-        "text": "Real knowledge is to know the extent of one's ignorance.",
-        "author": "Confucious",
-        "tags": ["life", "confucious", "success"]
-      },
-      {
-        "id": 11,
-        "text": "अहम् ब्रह्मास्मि",
-        "author": "Brihadaranyaka Upanishad",
-        "tags": ["soul", "upanishad", "sanskrit"]
-      },
-      {
-        "id": 12,
-        "text": "If you take on too much without a solid foundation, you will eventually ne drained, leaving you with embarrassment and bad luck.",
-        "author": "I Ching",
-        "tags": ["life", "success", "i ching", "luck"]
-      },
-      {
-        "id": 13,
-        "text": "_Luck_ is what happens when **preparation** meets **opportunity**.",
-        "author": "Four Leaf Clover",
-        "tags": ["luck", "success"]
-      },
-      {
-        "id": 14,
-        "text": "You will naturally feel fear in the face of things you've never tried before.<br> As you carry that fear and advance, the world you live in will become more vast.",
-        "author": "Blossoming Sword Saint",
-        "tags": ["fear", "success", "life"]
-      },
-      {
-        "id": 15,
-        "text": "To know then thousand things, know one well.",
-        "author": "Miyamoto Mushashi",
-        "tags": ["miyamoto mushashi", "success", "learn"]
-      },
-      {
-        "id": 16,
-        "text": "We cannot choose our external circumstances, but we can always choose how we respond to them.",
-        "author": "Epictetus",
-        "tags": ["epictetus", "success", "life", "greek"]
-      },
-      {
-        "id": 17,
-        "text": "You can see the outside, but you can't see what's going on inside?",
-        "author": "Dam Ho",
-        "tags": ["novel", "life", "beauty"]
-      },
-      {
-        "id": 18,
-        "text": "How can a man not stand by his **principles**? Give to his _hunger_ easily.",
-        "author": "Scholar's Reincarnation",
-        "tags": ["life", "novel"]
-      },
-      {
-        "id": 19,
-        "text": "Even if the cost is a **gruesome death**, we must uphold **justice** on _Earth!_",
-        "author": "Ye Qing",
-        "tags": ["life", "justice", "novel"]
-      },
-      {
-        "id": 20,
-        "text": "I am not afraid of Muslims,<br>I'm not afraid of Britishers,<br>I'm afraid of Hindus against Hinduism.",
-        "author": "Veer Savarkar",
-        "tags": ["savarkar", "india", "fear", "hinduism"]
-      },
-      {
-        "id": 21,
-        "text": "Joyful in difficulty, the people forget about their death.",
-        "author": "I Ching",
-        "tags": ["i ching", "success", "death"]
-      },
-      {
-        "id": 22,
-        "text": "There are two types of Pain,<br>Pain that _hurts_ you and Pain that _changes_ you.",
-        "author": "Naruto",
-        "tags": ["naruto", "pain", "learn", "life"]
-      },
-      {
-        "id": 23,
-        "text": "In a country well governed, poverty is something to be ashamed of. In a country badly governed, wealth is something to be ashamed of.",
-        "author": "Confucious",
-        "tags": ["politics", "confucious"]
-      },
-      {
-        "id": 24,
-        "text": "When anger rises, think of consequences.",
-        "author": "Confucious",
-        "tags": ["politics", "confucious", "life", "anger"]
-      },
-      {
-        "id": 25,
-        "text": "When it is obvious that the goals cannot be reached, don't adjust the goals; adjust the action steps.",
-        "author": "Confucious",
-        "tags": ["politics", "confucious", "life", "success"]
-      },
-      {
-        "id": 27,
-        "text": "Wealth consists not in having great possessions, but in having few wants.",
-        "author": "Epictetus",
-        "tags": ["wealth","epictetus", "success", "life"]
-      },
-      {
-        "id": 28,
-        "text": "The key is to keep company only with people who uplift you, whose presence calls forth your best.",
-        "author": "Epictetus",
-        "tags": ["epictetus", "success", "life"]
-      },
-      {
-        "id": 31,
-        "text": "No man is free who is not master of himself",
-        "author": "Epictetus",
-        "tags": ["epictetus", "truth", "teacher"]
-      }
-
+    {
+      "id": 4,
+      "text": "प्रज्ञानम् ब्रह्म",
+      "author": "Aitareya Upanishad",
+      "tags": ["brahma", "upanishad", "sanskrit"]
+    },
+    {
+      "id": 5,
+      "text": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च।<br>तस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि॥ **२-२७**",
+      "author": "Bhagwad Geeta",
+      "tags": ["life", "bhagwad geeta", "sanskrit"]
+    },
+    {
+      "id": 6,
+      "text": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।<br>मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥ २-४७",
+      "author": "Bhagwad Geeta",
+      "tags": ["work", "bhagwad geeta", "sanskrit"]
+    },
+    {
+      "id": 35,
+      "text": "मुर्ख लोगो से वाद-विवाद नहीं करना चाहिए क्योंकि ऐसा करने से हम अपना ही समय नष्ट करते है.",
+      "author": "Chanakya",
+      "tags": ["life", "chanakya", "hindi", "learn"]
+    },
+    {
+      "id": 36,
+      "text": "भाग्य उनका साथ देता है जो कठिन परिस्थितयो का सामना करके भी अपने लक्ष्य के प्रति ढृढ रहते है.",
+      "author": "Chanakya",
+      "tags": ["work", "chanakya", "hindi", "success"]
+    },
+    {
+      "id": 37,
+      "text": "कोई भी व्यक्ति ऊँचे स्थान पर बैठकर ऊँचा नहीं हो जाता बल्कि हमेशा अपने गुणों से ऊँचा होता है.",
+      "author": "Chanakya",
+      "tags": ["work", "chanakya", "hindi", "success"]
+    },
+    {
+      "id": 38,
+      "text": "बुद्धि से पैसा कमाया जा सकता है,पैसे से बुद्धि नहीं.",
+      "author": "Chanakya",
+      "tags": ["work", "chanakya", "hindi", "wealth"]
+    },
+    {
+      "id": 7,
+      "text": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः।<br>न चैनं क्लेदयन्त्यापो न शोषयति मारुतः॥ २-२३",
+      "author": "Bhagwad Geeta",
+      "tags": ["soul", "bhagwad geeta", "sanskrit"]
+    },
+    {
+      "id": 8,
+      "text": "असतो मा सद्गमय ।<br>तमसो मा ज्योतिर्गमय ।<br>मृत्योर्माऽमृतं गमय ॥1.3.28",
+      "author": "Brihadaranyaka Upanishad",
+      "tags": ["soul", "upanishad", "sanskrit"]
+    },
+    {
+      "id": 29,
+      "text": "It is impossible for a man to learn what he thinks he already knows.",
+      "author": "Epictetus",
+      "tags": ["epictetus", "learn", "life"]
+    },
+    {
+      "id": 42,
+      "text": "खुद का अपमान करा के जीने से तो अच्छा है मर जाना क्योकि प्राणों को त्यागने से एक ही बार कष्ट होता है पर अपमानित होकर जिंदा रहने से बार-बार कष्ट होता है.",
+      "author": "Chanakya",
+      "tags": ["chanakya", "hindi", "life", "virtue", "death"]
+    },
+    {
+      "id": 1,
+      "text": "Everything that is made beautiful and fair and lovely is made for the eye of one who sees.",
+      "author": "Rumi",
+      "tags": ["rumi", "beauty"]
+    },
+    {
+      "id": 30,
+      "text": "Circumstances don't make the man, they only reveal him to himself.",
+      "author": "Epictetus",
+      "tags": ["epictetus", "life", "truth"]
+    },
+    {
+      "id": 43,
+      "text": "सतुंलित दिमाग जैसी कोई सादगी नही,संतोष जैसा कोई सुख नही,लोभ जैसी कोई बीमारी नही और दया जैसा कोई पुण्य नही है.",
+      "author": "Chanakya",
+      "tags": ["chanakya", "life", "happy", "anger", "fear"]
+    },
+    {
+      "id": 2,
+      "text": "Everything has beauty, but not everyone sees it.",
+      "author": "Confucious",
+      "tags": ["confucious", "beauty"]
+    },
+    {
+      "id": 3,
+      "text": "Your depression is connected to your insolence and refusal to praise.",
+      "author": "Rumi",
+      "tags": ["rumi", "life"]
+    },
+    {
+      "id": 9,
+      "text": "सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः।<br>येनाक्रमन्त्यृषयो ह्याप्तकामा यत्र तत्‌ सत्यस्य परमं निधानम्‌ ॥3.1.6",
+      "author": "Mandukya Upanishad",
+      "tags": ["truth", "upanishad", "sanskrit"]
+    },
+    {
+      "id": 10,
+      "text": "मातृ देवो भव।<br>पितृ देवो भव।<br>आचार्य देवो भव।<br>अतिथि देवो भव॥1.11.2",
+      "author": "Taittiriya Upanishad",
+      "tags": ["teacher", "upanishad", "sanskrit"]
+    },
+    {
+      "id": 26,
+      "text": "Real knowledge is to know the extent of one's ignorance.",
+      "author": "Confucious",
+      "tags": ["life", "confucious", "success"]
+    },
+    {
+      "id": 11,
+      "text": "अहम् ब्रह्मास्मि",
+      "author": "Brihadaranyaka Upanishad",
+      "tags": ["soul", "upanishad", "sanskrit"]
+    },
+    {
+      "id": 12,
+      "text": "If you take on too much without a solid foundation, you will eventually ne drained, leaving you with embarrassment and bad luck.",
+      "author": "I Ching",
+      "tags": ["life", "success", "i ching", "luck"]
+    },
+    {
+      "id": 13,
+      "text": "_Luck_ is what happens when **preparation** meets **opportunity**.",
+      "author": "Four Leaf Clover",
+      "tags": ["luck", "success"]
+    },
+    {
+      "id": 14,
+      "text": "You will naturally feel fear in the face of things you've never tried before.<br> As you carry that fear and advance, the world you live in will become more vast.",
+      "author": "Blossoming Sword Saint",
+      "tags": ["fear", "success", "life"]
+    },
+    {
+      "id": 15,
+      "text": "To know then thousand things, know one well.",
+      "author": "Miyamoto Mushashi",
+      "tags": ["miyamoto mushashi", "success", "learn"]
+    },
+    {
+      "id": 16,
+      "text": "We cannot choose our external circumstances, but we can always choose how we respond to them.",
+      "author": "Epictetus",
+      "tags": ["epictetus", "success", "life", "greek"]
+    },
+    {
+      "id": 17,
+      "text": "You can see the outside, but you can't see what's going on inside?",
+      "author": "Dam Ho",
+      "tags": ["novel", "life", "beauty"]
+    },
+    {
+      "id": 18,
+      "text": "How can a man not stand by his **principles**? Give to his _hunger_ easily.",
+      "author": "Scholar's Reincarnation",
+      "tags": ["life", "novel"]
+    },
+    {
+      "id": 19,
+      "text": "Even if the cost is a **gruesome death**, we must uphold **justice** on _Earth!_",
+      "author": "Ye Qing",
+      "tags": ["life", "justice", "novel"]
+    },
+    {
+      "id": 20,
+      "text": "I am not afraid of Muslims,<br>I'm not afraid of Britishers,<br>I'm afraid of Hindus against Hinduism.",
+      "author": "Veer Savarkar",
+      "tags": ["savarkar", "india", "fear", "hinduism"]
+    },
+    {
+      "id": 21,
+      "text": "Joyful in difficulty, the people forget about their death.",
+      "author": "I Ching",
+      "tags": ["i ching", "success", "death"]
+    },
+    {
+      "id": 22,
+      "text": "There are two types of Pain,<br>Pain that _hurts_ you and Pain that _changes_ you.",
+      "author": "Naruto",
+      "tags": ["naruto", "pain", "learn", "life"]
+    },
+    {
+      "id": 23,
+      "text": "In a country well governed, poverty is something to be ashamed of. In a country badly governed, wealth is something to be ashamed of.",
+      "author": "Confucious",
+      "tags": ["politics", "confucious"]
+    },
+    {
+      "id": 24,
+      "text": "When anger rises, think of consequences.",
+      "author": "Confucious",
+      "tags": ["politics", "confucious", "life", "anger"]
+    },
+    {
+      "id": 25,
+      "text": "When it is obvious that the goals cannot be reached, don't adjust the goals; adjust the action steps.",
+      "author": "Confucious",
+      "tags": ["politics", "confucious", "life", "success"]
+    },
+    {
+      "id": 27,
+      "text": "Wealth consists not in having great possessions, but in having few wants.",
+      "author": "Epictetus",
+      "tags": ["wealth","epictetus", "success", "life"]
+    },
+    {
+      "id": 28,
+      "text": "The key is to keep company only with people who uplift you, whose presence calls forth your best.",
+      "author": "Epictetus",
+      "tags": ["epictetus", "success", "life"]
+    },
+    {
+      "id": 31,
+      "text": "No man is free who is not master of himself",
+      "author": "Epictetus",
+      "tags": ["epictetus", "truth", "teacher"]
+    },
+    {
+      "id": 32,
+      "text": "Better a diamond with a flaw than a pebble without",
+      "author": "Confucious",
+      "tags": ["confucious", "truth", "teacher", "fear"]
+    },
+    {
+      "id": 33,
+      "text": "Wheresoever you go, go with all your heart.",
+      "author": "Confucious",
+      "tags": ["confucious", "life", "happy"]
+    },
+    {
+      "id": 34,
+      "text": "Your thoughts are primary cause of everything.",
+      "author": "The Secret Book",
+      "tags": ["rhonda byrane", "secret book", "attraction", "thoughts", "success"]
+    },
+    {
+      "id": 39,
+      "text": "बहुत से गुणो के होने के बाद भी सिर्फ एक दोष सब कुछ नष्ट कर सकता है.",
+      "author": "Chanakya",
+      "tags": ["chanakya", "hindi", "life", "virtue"]
+    },
+    {
+      "id": 40,
+      "text": "जो व्यक्ति शक्ति न होने पर मन में हार नहीं मानता उसे संसार की कोई भी ताकत परास्त नहीं कर सकती.",
+      "author": "Chanakya",
+      "tags": ["chanakya", "hindi", "success", "virtue"]
+    },
+    {
+      "id": 41,
+      "text": "एक अनपढ़ व्यक्ति का जीवन उसी तरह होता है जैसे की किसी कुत्ते की पूछ जो न ही उसके पीछे का भाग ढकती है और न ही उसे कीड़ो से बचाती है.",
+      "author": "Chanakya",
+      "tags": ["chanakya", "hindi", "life", "study", "success"]
+    }
   ]
 }
   

@@ -151,7 +151,8 @@ class UIManager {
 
     // In your UIManager class or wherever appropriate
     shareViaSites(site, text, author) {
-        const message = `${text}\n${author}`;
+        const promotion = 'https://koustubh1234g.github.io/Vichaar/';
+        const message = `${text}\n${author}\n\nQuote by: ${promotion}`;
         let url = '';
         switch (site) {
             case 'whatsapp': {
